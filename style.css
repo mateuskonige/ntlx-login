@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d0d0d;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+}
+
+h1 img {
+  width: 200px;
+  display: block;
+  margin: 2rem auto;
+}
+
+.login-container {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #262626;
+  max-width: 450px;
+  border-radius: 1rem;
+}
+
+.login-container h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.input-group {
+  padding-top: 1rem;
+  position: relative;
+  
+}
+
+.text-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #595959;
+  color: white;
+  outline: 0;
+  font-size: 1rem;
+}
+
+.input-group input::placeholder {
+  color: white;
+}
+
+.input-group p {
+  color: white;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 1rem 0;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #e50914;
+  border: none;
+  border-radius: 0.5rem;
+  position: relative;
+  top: 0px;
+}
+
+button:hover {
+  background-color: red;
+  transition: 0.2s;
+  cursor: pointer;
+  position: relative;
+  top: -1px;
+}
+
+.check-box {
+  color: white;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-box input {
+  cursor: pointer;
+}
+
+.check-box label {
+  margin: 0 auto 0 0;
+}
+
+.check-box a {
+  color: white;
+  text-decoration: none;
+}
+
+.check-box a:hover {
+  text-decoration: underline;
+}
+
+.facebook-connect {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.facebook-connect img {
+  width: 20px;
+  margin: 0 10px 0 0;
+}
+
+.facebook-connect a {
+  color: white;
+  text-decoration: none;
+}
+
+.facebook-connect a:hover {
+  text-decoration: underline;
+}
+
+.sign-in {
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.sign-in a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-in a:hover {
+  text-decoration: underline;
+  color:#e50914
+}
+
+footer {
+  margin: 8rem 0;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.info {
+  font-weight: normal;
+  margin: 1rem;
+}
+
+footer div a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  .hero::after {
+    content: "";
+    background: url(/images/background.jpg);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  h1 img {
+    width: 200px;
+    display: block;
+    margin: 2rem 0 2rem 2rem;
+  }
+}
